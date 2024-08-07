@@ -9,7 +9,7 @@ const AbuotMe = () => {
       </h2>
 
       <p className="w-full text-base font-normal leading-7 text-justify text-neutral-200">
-        🖐Hi, everyone! I&apos;m a Full Stack Developer with over 4 years of
+        👋Hi, everyone! I&apos;m a Full Stack Developer with over 4 years of
         experience, ready to help bring your ideas to life with clean, efficient
         code. I&apos;ve worked with clients globally, ensuring top-notch results
         and 100% satisfaction. My skills include React, Node.js, JavaScript, and
