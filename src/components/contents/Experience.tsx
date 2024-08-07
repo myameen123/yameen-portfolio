@@ -7,7 +7,7 @@ const Experience = () => {
       <TimeLineItem active>
         <TimeLineItem.Title>
           <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-            Full Stack developer at radwi
+            FULL STACK DEVELOPER at RADWI
           </span>{" "}
           • <span className="text-neutral-200">July 2023 - Present</span>
         </TimeLineItem.Title>
@@ -20,7 +20,7 @@ const Experience = () => {
         </TimeLineItem.Description>
       </TimeLineItem>
 
-      <TimeLineItem last>
+      <TimeLineItem>
         <TimeLineItem.Title>
           <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
             FULL STACK DEVELOPER (INTERN)
@@ -32,6 +32,21 @@ const Experience = () => {
           client requirements. Implemented Facebook Pixel for website tracking,
           providing data-driven insights for marketing. Utilized Tailwind CSS to
           create modern and visually appealing user interfaces.
+        </TimeLineItem.Description>
+      </TimeLineItem>
+
+      <TimeLineItem last>
+        <TimeLineItem.Title>
+          <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
+            FRONTEND DEVELOPER at VASSAL (Intern)
+          </span>{" "}
+          <span className="text-neutral-200">Jun 2022 - Sept 2022</span>
+        </TimeLineItem.Title>
+        <TimeLineItem.Description>
+          I contributed to VASSAL&apos;s social media app for global
+          trip-sharing, using React.js to build a dynamic and user-friendly
+          website. My role focused on crafting engaging front-end experiences
+          for users to post and discover trips worldwide.
         </TimeLineItem.Description>
       </TimeLineItem>
     </TimeLine>

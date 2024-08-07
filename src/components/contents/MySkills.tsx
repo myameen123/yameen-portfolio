@@ -12,7 +12,7 @@ const MySkills = () => {
       </div>
 
       <p className="mb-4 text-justify lg:leading-7 text-neutral-200 lg:text-start">
-        With over 2 years of programming experience, I excel in solving complex
+        With over 4 years of programming experience, I excel in solving complex
         problems creatively. My expertise spans various programming languages,
         libraries, and technology stacks, with a strong focus on frontend,
         backend, and app development.
