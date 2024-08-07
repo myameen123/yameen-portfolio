@@ -34,7 +34,7 @@ const AllLearningTechs = () => {
         transition={{ delay: 0.2 }}
         className="mb-3 text-base text-center text-neutral-300 lg:text-start"
       >
-        I am currently working or interested in learning:
+        Current Learning and Implementation Technologies
       </motion.p>
 
       <TooltipProvider delayDuration={0}>
