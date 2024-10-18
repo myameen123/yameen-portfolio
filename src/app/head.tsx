@@ -28,19 +28,19 @@ const Head = () => {
       <meta name="keywords" content={meta.keywords} />
       <meta
         property="og:url"
-        content={`https://shreyassihasane.vercel.app${pathname}`}
+        content={`http://muhammad-yameen.vercel.app/${pathname}`}
       />
       <link
         rel="canonical"
-        href={`https://shreyassihasane.vercel.app${pathname}`}
+        href={`http://muhammad-yameen.vercel.app/${pathname}`}
       />
-      <link rel="me" href="mailto:sihasaneshreyas@gmail.com" />
+      <link rel="me" href="mailto:yameenmuhammad960@gmail.com" />
       <meta property="og:type" content={meta.type} />
-      <meta property="og:site_name" content="Shreyas Sihasane" />
+      <meta property="og:site_name" content="Muhammad Yameen" />
       <meta property="og:description" content={meta.description} />
       <meta property="og:title" content={meta.title} />
       <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@_shreyas_ms_" />
+      <meta name="twitter:site" content="@Muhamma46095355" />
       <meta name="twitter:title" content={meta.title} />
       <meta name="twitter:description" content={meta.description} />
     </>
