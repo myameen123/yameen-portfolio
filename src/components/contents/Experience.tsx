@@ -7,9 +7,21 @@ const Experience = () => {
       <TimeLineItem active>
         <TimeLineItem.Title>
           <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-            FULL STACK DEVELOPER at RADWI
+            FULL STACK DEVELOPER at <span className="italic text-sm">RapidStart Pty Ltd, Melbourne Australia</span>
           </span>{" "}
           • <span className="text-neutral-200">July 2023 - Present</span>
+        </TimeLineItem.Title>
+        <TimeLineItem.Description>
+        Working with Rapid Start to build a social media SDK for their new platform. I am integrating FastAPI with APIs from Facebook, Instagram, LinkedIn, Reddit, Telegram, and X formerly Twitter.
+        My role focuses on making social media integration easy and scalable, enabling features like posting, data retrieval, and managing user interactions. The aim is to create a flexible SDK that simplifies social media tasks for developers and businesses.
+        </TimeLineItem.Description>
+      </TimeLineItem>
+      <TimeLineItem>
+        <TimeLineItem.Title>
+          <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
+            FULL STACK DEVELOPER at <span className="italic text-sm">Radwi, Islamabad Pakistan</span>
+          </span>{" "}
+          • <span className="text-neutral-200">July 2023 - Feb 2024</span>
         </TimeLineItem.Title>
         <TimeLineItem.Description>
           As a Full Stack Developer at Radwi, I am building and managing their
@@ -20,10 +32,10 @@ const Experience = () => {
         </TimeLineItem.Description>
       </TimeLineItem>
 
-      <TimeLineItem>
+      <TimeLineItem last>
         <TimeLineItem.Title>
           <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-            FULL STACK DEVELOPER (INTERN)
+            FULL STACK DEVELOPER (INTERN) at <span className="italic text-sm">Sparkleo Technology, Islamabad Pakistan</span>
           </span>{" "}
           • <span className="text-neutral-200">Jun 2023 - Sept 2023</span>
         </TimeLineItem.Title>
@@ -32,21 +44,6 @@ const Experience = () => {
           client requirements. Implemented Facebook Pixel for website tracking,
           providing data-driven insights for marketing. Utilized Tailwind CSS to
           create modern and visually appealing user interfaces.
-        </TimeLineItem.Description>
-      </TimeLineItem>
-
-      <TimeLineItem last>
-        <TimeLineItem.Title>
-          <span className="font-medium transition-all hover:text-white hover:underline hover:underline-offset-2">
-            FRONTEND DEVELOPER at VASSAL (Intern)
-          </span>{" "}
-          <span className="text-neutral-200">Jun 2022 - Sept 2022</span>
-        </TimeLineItem.Title>
-        <TimeLineItem.Description>
-          I contributed to VASSAL&apos;s social media app for global
-          trip-sharing, using React.js to build a dynamic and user-friendly
-          website. My role focused on crafting engaging front-end experiences
-          for users to post and discover trips worldwide.
         </TimeLineItem.Description>
       </TimeLineItem>
     </TimeLine>
